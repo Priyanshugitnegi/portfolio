@@ -1,0 +1,38 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+/* Section spacing */
+section {
+  padding: 100px 20px;
+  border-bottom: 1px solid #1e293b;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+html {
+  scroll-behavior: smooth;
+}
