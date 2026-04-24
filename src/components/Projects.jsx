@@ -4,8 +4,9 @@ function Projects() {
   return (
     <section id="projects">
       <div className="container">
-        <h2>Featured Project</h2>
+        <h2>Projects</h2>
 
+        {/* ===== PROJECT 1 ===== */}
         <div
           style={{
             display: "flex",
@@ -16,7 +17,7 @@ function Projects() {
             marginTop: "40px",
           }}
         >
-          {/* LEFT SIDE */}
+          {/* LEFT */}
           <div style={{ maxWidth: "400px" }}>
             <h3>BioLogist E-commerce Platform</h3>
 
@@ -32,20 +33,12 @@ function Projects() {
               <li>Handled authentication and sessions</li>
             </ul>
 
-            {/* 🔥 Buttons */}
             <div style={{ marginTop: "25px" }}>
               <a
                 href="https://www.biologistinfo.com"
                 target="_blank"
                 rel="noreferrer"
-                style={{
-                  marginRight: "15px",
-                  padding: "10px 18px",
-                  background: "#38bdf8",
-                  borderRadius: "6px",
-                  color: "black",
-                  fontWeight: "bold",
-                }}
+                style={btnPrimary}
               >
                 Live Demo
               </a>
@@ -54,13 +47,7 @@ function Projects() {
                 href="https://github.com/Priyanshugitnegi/Biologist-backend"
                 target="_blank"
                 rel="noreferrer"
-                style={{
-                  marginRight: "10px",
-                  padding: "10px 18px",
-                  border: "1px solid #38bdf8",
-                  borderRadius: "6px",
-                  color: "#38bdf8",
-                }}
+                style={btnOutline}
               >
                 Backend
               </a>
@@ -69,19 +56,14 @@ function Projects() {
                 href="https://github.com/Priyanshugitnegi/Biologist-frontend"
                 target="_blank"
                 rel="noreferrer"
-                style={{
-                  padding: "10px 18px",
-                  border: "1px solid #38bdf8",
-                  borderRadius: "6px",
-                  color: "#38bdf8",
-                }}
+                style={btnOutline}
               >
                 Frontend
               </a>
             </div>
           </div>
 
-          {/* RIGHT SIDE (PROJECT IMAGE) */}
+          {/* RIGHT */}
           <div>
             <a
               href="https://www.biologistinfo.com"
@@ -91,20 +73,43 @@ function Projects() {
               <img
                 src={projectImg}
                 alt="BioLogist Project"
-                style={{
-                  width: "350px",
-                  borderRadius: "10px",
-                  transition: "0.3s",
-                  boxShadow: "0px 10px 30px rgba(0,0,0,0.5)",
-                  cursor: "pointer",
-                }}
-                onMouseEnter={(e) =>
-                  (e.currentTarget.style.transform = "scale(1.05)")
-                }
-                onMouseLeave={(e) =>
-                  (e.currentTarget.style.transform = "scale(1)")
-                }
+                style={imgStyle}
               />
+            </a>
+          </div>
+        </div>
+
+        {/* ===== PROJECT 2 ===== */}
+        <div
+          style={{
+            marginTop: "80px",
+            textAlign: "center",
+            maxWidth: "700px",
+            marginInline: "auto",
+          }}
+        >
+          <h3>E-commerce Data Analysis</h3>
+
+          <p style={{ marginTop: "15px" }}>
+            Analyzed real-world e-commerce data using Python (Pandas,
+            Matplotlib) to uncover revenue trends and top-performing products.
+          </p>
+
+          <ul style={{ marginTop: "20px", textAlign: "left" }}>
+            <li>Performed data cleaning and merging</li>
+            <li>Analyzed monthly revenue trends</li>
+            <li>Identified top revenue-generating products</li>
+            <li>Visualized insights using charts</li>
+          </ul>
+
+          <div style={{ marginTop: "25px" }}>
+            <a
+              href="https://github.com/Priyanshugitnegi/data-analysis-project"
+              target="_blank"
+              rel="noreferrer"
+              style={btnPrimary}
+            >
+              View Project
             </a>
           </div>
         </div>
@@ -112,5 +117,31 @@ function Projects() {
     </section>
   );
 }
+
+/* 🔥 Reusable Styles */
+const btnPrimary = {
+  marginRight: "10px",
+  padding: "10px 18px",
+  background: "#38bdf8",
+  borderRadius: "6px",
+  color: "black",
+  fontWeight: "bold",
+};
+
+const btnOutline = {
+  marginRight: "10px",
+  padding: "10px 18px",
+  border: "1px solid #38bdf8",
+  borderRadius: "6px",
+  color: "#38bdf8",
+};
+
+const imgStyle = {
+  width: "350px",
+  borderRadius: "10px",
+  transition: "0.3s",
+  boxShadow: "0px 10px 30px rgba(0,0,0,0.5)",
+  cursor: "pointer",
+};
 
 export default Projects;
