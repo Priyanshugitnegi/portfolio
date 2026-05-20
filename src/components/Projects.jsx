@@ -6,7 +6,7 @@ function Projects() {
       <div className="container">
         <h2>Projects</h2>
 
-        {/* ===== PROJECT 1 ===== */}
+        {/* ===== PROJECT 0 ===== */}
         <div
           style={{
             display: "flex",
@@ -15,6 +15,67 @@ function Projects() {
             alignItems: "center",
             justifyContent: "center",
             marginTop: "40px",
+          }}
+        >
+          {/* LEFT */}
+          <div style={{ maxWidth: "400px" }}>
+
+            <h3>GigFlow – Smart Leads Dashboard</h3>
+
+            <p>
+              A full-stack lead management dashboard with JWT authentication,
+              protected APIs, lead CRUD operations, and production deployment.
+            </p>
+
+            <ul style={{ marginTop: "20px", textAlign: "left" }}>
+              <li>Implemented JWT Login & Registration</li>
+              <li>Built protected CRUD APIs for leads</li>
+              <li>Integrated React frontend with Django backend</li>
+              <li>Deployed frontend on Vercel and backend on Railway</li>
+            </ul>
+
+            <div style={{ marginTop: "25px" }}>
+
+              <a
+                href="https://gigflow-dashboard-nu.vercel.app"
+                target="_blank"
+                rel="noreferrer"
+                style={btnPrimary}
+              >
+                Live Demo
+              </a>
+
+              <a
+                href="https://github.com/Priyanshugitnegi/gigflow-backend"
+                target="_blank"
+                rel="noreferrer"
+                style={btnOutline}
+              >
+                Backend
+              </a>
+
+              <a
+                href="https://github.com/Priyanshugitnegi/gigflow-dashboard"
+                target="_blank"
+                rel="noreferrer"
+                style={btnOutline}
+              >
+                Frontend
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+        {/* ===== PROJECT 1 ===== */}
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "30px",
+            alignItems: "center",
+            justifyContent: "center",
+            marginTop: "80px",
           }}
         >
           {/* LEFT */}
