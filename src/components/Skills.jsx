@@ -1,47 +1,61 @@
+
 function Skills() {
   const skillGroups = [
     {
-      title: "Backend",
+      title: "Python Backend Development",
       skills: [
         "Python",
+        "Object-Oriented Programming",
         "Django",
         "Django REST Framework",
         "REST APIs",
+        "Django ORM",
       ],
     },
-
     {
-      title: "Database",
+      title: "Databases",
       skills: [
         "SQL",
         "MySQL",
         "PostgreSQL",
         "SQLite",
+        "Database Design",
+        "Query Optimization",
       ],
     },
-
     {
-      title: "Frontend",
+      title: "Frontend Development",
       skills: [
         "React.js",
         "JavaScript",
-        "HTML",
-        "CSS",
+        "HTML5",
+        "CSS3",
+        "REST API Integration",
+        "Responsive Web Design",
       ],
     },
-
     {
-      title: "AI / Machine Learning",
+      title: "Generative AI",
       skills: [
-        "Machine Learning",
+        "Groq API",
+        "LLM Integration",
+        "Prompt Engineering",
+        "Pydantic",
+        "PDF Resume Parsing",
+        "Structured JSON Output",
+      ],
+    },
+    {
+      title: "AI & Machine Learning",
+      skills: [
         "Scikit-learn",
         "Pandas",
         "NumPy",
         "Matplotlib",
-        "OpenAI API",
+        "Cosine Similarity",
+        "Data Preprocessing",
       ],
     },
-
     {
       title: "Tools & Deployment",
       skills: [
@@ -49,6 +63,7 @@ function Skills() {
         "GitHub",
         "Postman",
         "VS Code",
+        "Render",
         "Vercel",
       ],
     },
@@ -57,7 +72,6 @@ function Skills() {
   return (
     <section id="skills">
       <div className="container" style={{ textAlign: "center" }}>
-
         <h2>Skills</h2>
 
         <p
@@ -69,8 +83,10 @@ function Skills() {
             lineHeight: "1.8",
           }}
         >
-          Technologies and tools I use for backend development, REST APIs,
-          databases, web development, and AI/ML projects.
+          My technical skills focus on Python backend development,
+          REST API development, database management, full-stack
+          web applications, and Generative AI integration through
+          hands-on projects.
         </p>
 
         <div
@@ -81,7 +97,6 @@ function Skills() {
             gap: "30px",
           }}
         >
-
           {skillGroups.map((group) => (
             <div
               key={group.title}
@@ -99,7 +114,6 @@ function Skills() {
                 (e.currentTarget.style.transform = "translateY(0)")
               }
             >
-
               <h3
                 style={{
                   marginBottom: "18px",
@@ -120,12 +134,9 @@ function Skills() {
                   {skill}
                 </p>
               ))}
-
             </div>
           ))}
-
         </div>
-
       </div>
     </section>
   );

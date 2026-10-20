@@ -1,8 +1,8 @@
+
 function About() {
   return (
     <section id="about">
       <div className="container" style={{ textAlign: "center" }}>
-
         <h2>About Me</h2>
 
         <p
@@ -14,10 +14,11 @@ function About() {
             lineHeight: "1.8",
           }}
         >
-          I am a B.Tech CSE (AI/ML) graduate with a strong interest in
-          Python backend development. I work with Python, Django, Django
-          REST Framework, and SQL to build backend applications and
-          REST APIs.
+          I am a Computer Science Engineering graduate specializing in
+          Artificial Intelligence and Machine Learning, with a strong
+          focus on Python backend and full-stack development. I work with
+          Python, Django, Django REST Framework, SQL, and React to build
+          applications and reliable REST APIs.
         </p>
 
         <p
@@ -29,10 +30,11 @@ function About() {
             lineHeight: "1.8",
           }}
         >
-          I have built projects including an e-commerce platform,
-          course management system, and smart leads dashboard, working
-          across backend logic, database integration, API development,
-          and frontend integration.
+          My projects include BioLogist, a full-stack e-commerce platform,
+          and TalentLens, an AI-powered resume screening system. Through
+          these projects, I have worked on database design, API development,
+          query optimization, frontend integration, document processing,
+          and LLM API integration.
         </p>
 
         <p
@@ -44,11 +46,11 @@ function About() {
             lineHeight: "1.8",
           }}
         >
-          I enjoy solving practical problems through clean code and
-          continuously improving my skills in backend development,
-          databases, APIs, and software engineering.
+          I enjoy building practical software, solving backend problems,
+          and improving application performance. I am continuously
+          developing my skills in API design, databases, Generative AI,
+          deployment, and end-to-end product development.
         </p>
-
       </div>
     </section>
   );
