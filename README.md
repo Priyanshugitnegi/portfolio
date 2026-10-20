@@ -1,20 +1,88 @@
-<<<<<<< HEAD
-# React + Vite
+# Priyanshu Negi — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal developer portfolio showcasing my technical skills, experience, and projects in Python backend development, full-stack web development, and Generative AI.
 
-Currently, two official plugins are available:
+🌐 **Live Portfolio:** [priyanshunegi-portfolio.vercel.app](https://priyanshunegi-portfolio.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About Me
 
-## React Compiler
+I am a Computer Science Engineering graduate specializing in Artificial Intelligence and Machine Learning, with hands-on experience building web applications using Python, Django, Django REST Framework, SQL, and React.js.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I enjoy developing REST APIs, designing relational databases, optimizing backend performance, and integrating LLM APIs into practical applications.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# portfolio
->>>>>>> ef8c8536f753b0894c23c530ea13e18a62ce0aad
+- **Languages:** Python, SQL, JavaScript, HTML5, CSS3
+- **Backend:** Django, Django REST Framework, REST API development
+- **Frontend:** React.js
+- **Databases:** PostgreSQL, MySQL, SQLite
+- **Generative AI:** Groq API, LLM integration, Pydantic
+- **Tools:** Git, GitHub, Postman, VS Code
+- **Deployment:** Vercel, Render
+
+## Featured Projects
+
+### 1. BioLogist — E-Commerce Platform
+
+A full-stack e-commerce application for browsing products and managing product variants.
+
+- Developed backend APIs using Django and Django REST Framework.
+- Designed relational models for products, categories, subcategories, and variants.
+- Optimized database queries using `select_related()` and `prefetch_related()`.
+- Implemented response caching and Excel-based bulk product imports.
+- Integrated the React frontend with backend APIs.
+
+**Live Website:** [biologistinfo.com](https://biologistinfo.com)
+
+**Source Code:**
+- [Backend Repository](https://github.com/Priyanshugitnegi/BioLogist-backend)
+- [Frontend Repository](https://github.com/Priyanshugitnegi/BioLogist-frontend)
+
+### 2. TalentLens — AI Resume Screening System
+
+An AI-powered application that analyzes resumes against job descriptions and helps identify matching and missing skills.
+
+- Built REST APIs using Django REST Framework.
+- Extracted text from PDF and DOCX resumes.
+- Integrated the Groq API for LLM-powered candidate assessments.
+- Used Pydantic to validate structured AI responses.
+- Implemented screening history, candidate comparison, and report exports.
+
+**Live Application:** [talent-lens-one.vercel.app](https://talent-lens-one.vercel.app)
+
+**GitHub:** [TalentLens Repository](https://github.com/Priyanshugitnegi/TalentLens)
+
+### 3. CourseHub — Course Management Application
+
+A full-stack application built with Django REST Framework and React.js.
+
+- Developed APIs for course management and CRUD operations.
+- Integrated frontend components with backend endpoints.
+- Worked with database models and authentication flows.
+
+**GitHub:** [CourseHub Repository](https://github.com/Priyanshugitnegi/coursehub-django-react)
+
+## Experience & Training
+
+**Python Full Stack Trainee — QSpiders, Gurugram**
+
+- Practiced Python, Django, and Django REST Framework development.
+- Built and tested CRUD APIs and authentication flows.
+- Worked with MySQL, SQLite, Git, GitHub, and Postman.
+
+## Education
+
+**B.Tech — Computer Science Engineering (AI & Machine Learning)**  
+DPG Institute of Technology & Management  
+Maharshi Dayanand University | 2021–2025
+
+## Contact
+
+- **Email:** [negips11april@gmail.com](mailto:negips11april@gmail.com)
+- **LinkedIn:** [Priyanshu Negi](https://linkedin.com/in/priyanshu-negi-b577b536b)
+- **GitHub:** [Priyanshugitnegi](https://github.com/Priyanshugitnegi)
+- **Portfolio:** [priyanshunegi-portfolio.vercel.app](https://priyanshunegi-portfolio.vercel.app)
+
+---
+
+Thank you for visiting my portfolio!
