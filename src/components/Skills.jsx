@@ -8,19 +8,36 @@ function Skills() {
         "Object-Oriented Programming",
         "Django",
         "Django REST Framework",
-        "REST APIs",
+        "REST API Development",
         "Django ORM",
+        "CRUD Operations",
+        "Authentication & Authorization",
       ],
     },
     {
-      title: "Databases",
+      title: "Databases & Data Management",
       skills: [
         "SQL",
-        "MySQL",
         "PostgreSQL",
+        "MySQL",
         "SQLite",
-        "Database Design",
+        "Relational Database Design",
         "Query Optimization",
+        "Database Migrations",
+      ],
+    },
+    {
+      title: "Generative AI & LLMs",
+      skills: [
+        "Groq API",
+        "LLM Integration",
+        "Prompt Engineering",
+        "Pydantic",
+        "Structured JSON Output",
+        "Resume Parsing",
+        "AI-Powered Text Analysis",
+        "Retrieval-Augmented Generation (RAG)",
+        "ChromaDB",
       ],
     },
     {
@@ -32,17 +49,7 @@ function Skills() {
         "CSS3",
         "REST API Integration",
         "Responsive Web Design",
-      ],
-    },
-    {
-      title: "Generative AI",
-      skills: [
-        "Groq API",
-        "LLM Integration",
-        "Prompt Engineering",
-        "Pydantic",
-        "PDF Resume Parsing",
-        "Structured JSON Output",
+        "Axios",
       ],
     },
     {
@@ -63,8 +70,10 @@ function Skills() {
         "GitHub",
         "Postman",
         "VS Code",
+        "Streamlit",
         "Render",
         "Vercel",
+        "Environment Variables",
       ],
     },
   ];
@@ -72,7 +81,7 @@ function Skills() {
   return (
     <section id="skills">
       <div className="container" style={{ textAlign: "center" }}>
-        <h2>Skills</h2>
+        <h2>Technical Skills</h2>
 
         <p
           style={{
@@ -83,10 +92,10 @@ function Skills() {
             lineHeight: "1.8",
           }}
         >
-          My technical skills focus on Python backend development,
-          REST API development, database management, full-stack
-          web applications, and Generative AI integration through
-          hands-on projects.
+          My technical expertise focuses on Python backend development,
+          Django REST APIs, database management, and Generative AI
+          integration. I apply these skills to build and deploy practical
+          web applications and AI-powered systems.
         </p>
 
         <div
@@ -104,15 +113,19 @@ function Skills() {
                 background: "#1e293b",
                 padding: "25px",
                 borderRadius: "14px",
-                transition: "0.3s",
+                transition: "transform 0.3s ease, box-shadow 0.3s ease",
                 boxShadow: "0px 10px 25px rgba(0,0,0,0.2)",
               }}
-              onMouseEnter={(e) =>
-                (e.currentTarget.style.transform = "translateY(-6px)")
-              }
-              onMouseLeave={(e) =>
-                (e.currentTarget.style.transform = "translateY(0)")
-              }
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateY(-6px)";
+                e.currentTarget.style.boxShadow =
+                  "0px 15px 30px rgba(0,0,0,0.3)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateY(0)";
+                e.currentTarget.style.boxShadow =
+                  "0px 10px 25px rgba(0,0,0,0.2)";
+              }}
             >
               <h3
                 style={{
@@ -129,6 +142,7 @@ function Skills() {
                   style={{
                     margin: "8px 0",
                     color: "#e2e8f0",
+                    lineHeight: "1.6",
                   }}
                 >
                   {skill}

@@ -1,6 +1,7 @@
 
 import biologistImg from "../assets/biologist.png";
 import talentLensImg from "../assets/talentlens.png";
+import copilotImg from "../assets/copilot.png";
 
 function Projects() {
   return (
@@ -13,7 +14,7 @@ function Projects() {
           using Python, Django REST Framework, React, SQL, and Generative AI.
         </p>
 
-        {/* ===== PROJECT 1: BIOLOGIST ===== */}
+        {/* PROJECT 1: BIOLOGIST */}
         <div style={projectRowStyle}>
           <div style={{ maxWidth: "650px" }}>
             <h3>BioLogist – E-commerce Platform</h3>
@@ -96,7 +97,7 @@ function Projects() {
           </div>
         </div>
 
-        {/* ===== PROJECT 2: TALENTLENS ===== */}
+        {/* PROJECT 2: TALENTLENS */}
         <div style={projectRowStyle}>
           <div style={{ maxWidth: "650px" }}>
             <h3>TalentLens – AI Resume Screening System</h3>
@@ -169,7 +170,88 @@ function Projects() {
           </div>
         </div>
 
-        {/* ===== PROJECT 3: GIGFLOW ===== */}
+        
+{/* PROJECT 3: AI SUPPORT OPERATIONS COPILOT */}
+<div style={projectRowStyle}>
+  <div style={{ maxWidth: "650px" }}>
+    <h3>AI Support Operations Copilot</h3>
+
+    <p style={paragraphStyle}>
+      An AI-powered customer support platform that helps support teams
+      manage tickets, analyze customer issues, retrieve relevant
+      information, and generate customer reply drafts.
+    </p>
+
+    <ul style={listStyle}>
+      <li>
+        Developed Django REST APIs for ticket management and AI analysis.
+      </li>
+      <li>
+        Implemented token-based authentication and user-specific ticket access.
+      </li>
+      <li>
+        Integrated the Groq API to summarize issues, classify tickets,
+        recommend actions, and draft customer replies.
+      </li>
+      <li>
+        Used ChromaDB for semantic retrieval of relevant support information.
+      </li>
+      <li>
+        Built a Streamlit dashboard for ticket management and AI analysis.
+      </li>
+      <li>
+        Configured PostgreSQL for production and deployed the backend
+        and dashboard on Render.
+      </li>
+      <li>
+        Added Django tests covering important application behavior.
+      </li>
+    </ul>
+
+    <p style={techStyle}>
+      Python • Django REST Framework • Groq API • ChromaDB •
+      Streamlit • PostgreSQL
+    </p>
+
+    <div style={buttonContainerStyle}>
+      <a
+        href="https://ai-support-operations-dashboard.onrender.com"
+        target="_blank"
+        rel="noreferrer"
+        style={btnPrimary}
+      >
+        Live Dashboard
+      </a>
+
+      <a
+        href="https://github.com/Priyanshugitnegi/ai-support-operations-copilot"
+        target="_blank"
+        rel="noreferrer"
+        style={btnOutline}
+      >
+        View on GitHub
+      </a>
+    </div>
+  </div>
+
+  {/* COPILOT SCREENSHOT */}
+  <div>
+    <a
+      href="https://ai-support-operations-dashboard.onrender.com"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <img
+        src={copilotImg}
+        alt="AI Support Operations Copilot dashboard"
+        style={imgStyle}
+      />
+    </a>
+  </div>
+</div>
+
+
+        {/* PROJECT 4: GIGFLOW */}
         <div style={projectRowStyle}>
           <div style={{ maxWidth: "650px" }}>
             <h3>GigFlow – Smart Leads Dashboard</h3>
@@ -226,7 +308,7 @@ function Projects() {
           </div>
         </div>
 
-        {/* ===== PROJECT 4: COURSEHUB ===== */}
+        {/* PROJECT 5: COURSEHUB */}
         <div style={projectRowStyle}>
           <div style={{ maxWidth: "650px" }}>
             <h3>CourseHub – Course Management System</h3>
@@ -262,7 +344,7 @@ function Projects() {
           </div>
         </div>
 
-        {/* ===== PROJECT 5: MOVIE RECOMMENDATION ===== */}
+        {/* PROJECT 6: MOVIE RECOMMENDATION */}
         <div style={projectRowStyle}>
           <div style={{ maxWidth: "650px" }}>
             <h3>Movie Recommendation System</h3>
@@ -289,7 +371,7 @@ function Projects() {
   );
 }
 
-/* ===== REUSABLE STYLES ===== */
+/* REUSABLE STYLES */
 
 const introStyle = {
   marginTop: "15px",

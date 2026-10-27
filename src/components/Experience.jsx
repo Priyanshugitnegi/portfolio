@@ -40,32 +40,32 @@ function Experience() {
         <h2 style={{ textAlign: "center" }}>Experience</h2>
 
         {/* QSPIDERS */}
-        <div style={cardStyle}>
-          <h3 style={headingStyle}>
-            Python Full Stack Trainee — QSpiders
-          </h3>
+<div style={cardStyle}>
+  <h3 style={headingStyle}>
+    Python Full Stack Intern — QSpiders
+  </h3>
 
-          <p style={subtitleStyle}>Gurugram</p>
+  <p style={subtitleStyle}>Gurugram</p>
 
-          <ul style={listStyle}>
-            <li>
-              Built backend applications and REST APIs using Python,
-              Django, and Django REST Framework.
-            </li>
-            <li>
-              Designed and tested CRUD endpoints and authentication flows
-              for full-stack applications.
-            </li>
-            <li>
-              Worked with MySQL and SQLite, including schema design and
-              query debugging.
-            </li>
-            <li>
-              Used Git, GitHub, and Postman for version control and API
-              testing.
-            </li>
-          </ul>
-        </div>
+  <ul style={listStyle}>
+    <li>
+      Developed backend applications and REST APIs using Python,
+      Django, and Django REST Framework.
+    </li>
+    <li>
+      Implemented and tested CRUD operations and authentication
+      workflows for full-stack applications.
+    </li>
+    <li>
+      Worked with MySQL and SQLite, including relational schema
+      design, database operations, and query debugging.
+    </li>
+    <li>
+      Used Git, GitHub, and Postman for version control,
+      API testing, and debugging.
+    </li>
+  </ul>
+</div>
 
         {/* BIOLOGIST */}
         <div style={cardStyle}>
@@ -78,39 +78,41 @@ function Experience() {
           <a
             href="https://www.biologistinfo.com"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             style={linkStyle}
           >
-            View Website ↗
+            View Live Website ↗
           </a>
 
           <ul style={listStyle}>
             <li>
-              Developed an e-commerce platform using Django, Django REST
-              Framework, React, and MySQL.
+              Built and deployed a full-stack e-commerce platform using
+              Django, Django REST Framework, React, and MySQL.
             </li>
             <li>
-              Built REST APIs for products, categories, product variants,
-              and enquiries.
+              Developed REST APIs for product catalogues, categories,
+              product variants, and customer enquiries.
             </li>
             <li>
-              Designed relational database models and integrated the
-              frontend with backend APIs.
+              Designed relational database models and integrated frontend
+              components with backend API endpoints.
             </li>
             <li>
-              Created an Excel-based bulk product import workflow for
+              Implemented Excel-based bulk product imports to streamline
               catalogue management.
             </li>
             <li>
-              Worked on query optimization, caching, debugging, and
-              deployment.
+              Improved database query efficiency and response performance
+              through query optimization and caching.
             </li>
           </ul>
         </div>
 
         {/* VIRTUAL ASSISTANT */}
         <div style={cardStyle}>
-          <h3 style={headingStyle}>Freelance Virtual Assistant</h3>
+          <h3 style={headingStyle}>
+            Freelance Virtual Assistant
+          </h3>
 
           <p style={subtitleStyle}>Independent Freelance Work</p>
 
@@ -120,11 +122,12 @@ function Experience() {
               management.
             </li>
             <li>
-              Organized digital information and documents accurately.
+              Organized digital information and documents with attention
+              to accuracy and consistency.
             </li>
             <li>
-              Supported online administrative and research tasks while
-              meeting assigned deadlines.
+              Managed administrative and research tasks while meeting
+              assigned deadlines.
             </li>
           </ul>
         </div>

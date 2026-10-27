@@ -1,3 +1,4 @@
+
 function Hero() {
   return (
     <section
@@ -8,6 +9,18 @@ function Hero() {
       }}
     >
       <div className="container" style={{ textAlign: "center" }}>
+        <p
+          style={{
+            color: "#38bdf8",
+            fontSize: "0.9rem",
+            fontWeight: "600",
+            letterSpacing: "3px",
+            textTransform: "uppercase",
+            marginBottom: "18px",
+          }}
+        >
+          Python Backend Developer
+        </p>
 
         <h1
           style={{
@@ -22,11 +35,12 @@ function Hero() {
         <h2
           style={{
             color: "#38bdf8",
-            marginTop: "15px",
+            marginTop: "20px",
             fontSize: "1.8rem",
+            lineHeight: "1.5",
           }}
         >
-          Python Backend Developer | Django | REST APIs | SQL
+          Python | Django REST Framework | Generative AI
         </h2>
 
         <p
@@ -39,47 +53,67 @@ function Hero() {
             fontSize: "1.05rem",
           }}
         >
-          I build backend applications and REST APIs using Python, Django,
-          Django REST Framework, and SQL, with a focus on clean, reliable,
-          and scalable solutions.
+          I build backend applications, REST APIs, and AI-powered
+          solutions using Python, Django, SQL, and large language
+          models. My projects combine reliable backend engineering
+          with practical Generative AI workflows.
         </p>
 
         <p
           style={{
-            marginTop: "15px",
+            marginTop: "18px",
             color: "#64748b",
             fontSize: "0.95rem",
+            lineHeight: "1.9",
           }}
         >
-          Python • Django • Django REST Framework • SQL • REST APIs
+          Python • Django • Django REST Framework • PostgreSQL •
+          REST APIs • Groq • ChromaDB
         </p>
 
-        {/* Buttons */}
-        <div style={{ marginTop: "35px" }}>
-          <a href="#projects">
+        <div
+          style={{
+            marginTop: "35px",
+            display: "flex",
+            justifyContent: "center",
+            flexWrap: "wrap",
+            gap: "14px",
+          }}
+        >
+          <a href="#projects" style={{ textDecoration: "none" }}>
             <button style={btnPrimary}>
-              View Projects
+              View Projects ↗
             </button>
           </a>
 
           <a
             href="/resume.pdf"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
           >
             <button style={btnOutline}>
-              Download Resume
+              Download Resume ↓
+            </button>
+          </a>
+
+          <a
+            href="https://github.com/Priyanshugitnegi"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+          >
+            <button style={btnOutline}>
+              GitHub ↗
             </button>
           </a>
         </div>
-
       </div>
     </section>
   );
 }
 
 const btnPrimary = {
-  marginRight: "12px",
   padding: "14px 28px",
   background: "linear-gradient(135deg, #38bdf8, #0ea5e9)",
   border: "none",
@@ -101,6 +135,7 @@ const btnOutline = {
   color: "#38bdf8",
   fontWeight: "bold",
   fontSize: "15px",
+  transition: "0.3s",
 };
 
 export default Hero;

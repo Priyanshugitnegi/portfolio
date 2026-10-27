@@ -15,10 +15,10 @@ function About() {
           }}
         >
           I am a Computer Science Engineering graduate specializing in
-          Artificial Intelligence and Machine Learning, with a strong
-          focus on Python backend and full-stack development. I work with
-          Python, Django, Django REST Framework, SQL, and React to build
-          applications and reliable REST APIs.
+          Artificial Intelligence and Machine Learning, with a strong focus
+          on Python backend development and Generative AI. I build
+          applications and REST APIs using Python, Django, Django REST
+          Framework, SQL, and modern development tools.
         </p>
 
         <p
@@ -30,11 +30,12 @@ function About() {
             lineHeight: "1.8",
           }}
         >
-          My projects include BioLogist, a full-stack e-commerce platform,
-          and TalentLens, an AI-powered resume screening system. Through
-          these projects, I have worked on database design, API development,
-          query optimization, frontend integration, document processing,
-          and LLM API integration.
+          My projects include BioLogist, a full-stack e-commerce platform;
+          TalentLens, an AI-powered resume screening system; and AI Support
+          Operations Copilot, an AI-powered support platform featuring
+          ticket management, ticket analysis, and customer reply generation.
+          These projects combine backend engineering, database management,
+          and AI integration to solve practical problems.
         </p>
 
         <p
@@ -46,10 +47,25 @@ function About() {
             lineHeight: "1.8",
           }}
         >
-          I enjoy building practical software, solving backend problems,
-          and improving application performance. I am continuously
-          developing my skills in API design, databases, Generative AI,
-          deployment, and end-to-end product development.
+          I have hands-on experience with Django REST APIs, token-based
+          authentication, user-specific data access, SQL databases, query
+          optimization, document processing, and LLM integration using Groq.
+          I have also deployed applications using Render and Vercel.
+        </p>
+
+        <p
+          style={{
+            marginTop: "20px",
+            color: "#94a3b8",
+            maxWidth: "750px",
+            marginInline: "auto",
+            lineHeight: "1.8",
+          }}
+        >
+          I enjoy solving backend problems, building reliable applications,
+          and exploring how Generative AI can improve real-world workflows.
+          I am continuously strengthening my skills in Python, API design,
+          database systems, and AI-powered application development.
         </p>
       </div>
     </section>
