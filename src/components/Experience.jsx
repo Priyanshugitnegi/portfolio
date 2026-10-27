@@ -1,12 +1,13 @@
 
+import React from "react";
+
 function Experience() {
   const cardStyle = {
-    maxWidth: "850px",
-    margin: "30px auto 0",
-    padding: "30px",
-    background: "rgba(15, 23, 42, 0.6)",
-    border: "1px solid rgba(56, 189, 248, 0.15)",
-    borderRadius: "15px",
+    background: "#111827",
+    padding: "25px",
+    borderRadius: "12px",
+    marginBottom: "25px",
+    border: "1px solid #1f2937",
   };
 
   const headingStyle = {
@@ -15,187 +16,155 @@ function Experience() {
   };
 
   const subtitleStyle = {
-    color: "#64748b",
-    marginBottom: "20px",
+    color: "#d1d5db",
+    marginBottom: "15px",
   };
 
   const listStyle = {
-    color: "#94a3b8",
+    color: "#9ca3af",
     lineHeight: "1.8",
     paddingLeft: "20px",
-    marginTop: "20px",
   };
 
   const linkStyle = {
-    display: "inline-block",
-    marginTop: "8px",
     color: "#38bdf8",
     textDecoration: "none",
     fontWeight: "600",
   };
 
+  const courseTechStyle = {
+    marginTop: "20px",
+    color: "#38bdf8",
+    fontWeight: "600",
+    lineHeight: "1.8",
+  };
+
   return (
-    <section id="experience">
-      <div className="container">
-        <h2 style={{ textAlign: "center" }}>Experience</h2>
+    <section id="experience" className="section">
+      <h2>Experience & Learning</h2>
 
-        {/* QSPIDERS */}
-<div style={cardStyle}>
-  <h3 style={headingStyle}>
-    Python Full Stack Intern — QSpiders
-  </h3>
+      {/* Python Full Stack Internship */}
+      <div style={cardStyle}>
+        <h3 style={headingStyle}>
+          Python Full Stack Intern — QSpiders
+        </h3>
+        <p style={subtitleStyle}>
+          February 2025 – February 2026
+        </p>
+        <ul style={listStyle}>
+          <li>Worked on Python-based application development.</li>
+          <li>Practiced backend development and database operations.</li>
+          <li>Worked with Python, SQL, Django, and web technologies.</li>
+        </ul>
+      </div>
 
-  <p style={subtitleStyle}>Gurugram</p>
+      {/* Generative AI Course */}
+      <div style={cardStyle}>
+        <h3 style={headingStyle}>
+          Generative AI — Udemy Course
+        </h3>
 
-  <ul style={listStyle}>
-    <li>
-      Developed backend applications and REST APIs using Python,
-      Django, and Django REST Framework.
-    </li>
-    <li>
-      Implemented and tested CRUD operations and authentication
-      workflows for full-stack applications.
-    </li>
-    <li>
-      Worked with MySQL and SQLite, including relational schema
-      design, database operations, and query debugging.
-    </li>
-    <li>
-      Used Git, GitHub, and Postman for version control,
-      API testing, and debugging.
-    </li>
-  </ul>
-</div>
+        <p style={subtitleStyle}>
+          Complete Generative AI Course With Langchain and Huggingface
+        </p>
 
-{/* GENERATIVE AI PROJECT EXPERIENCE */}
-<div style={cardStyle}>
-  <h3 style={headingStyle}>
-    Generative AI Developer — Project Experience
-  </h3>
+        <p style={{ color: "#9ca3af" }}>
+          Instructor: Krish Naik | 70 Hours
+        </p>
 
-  <p style={subtitleStyle}>
-    Hands-on Experience | Python & Generative AI
-  </p>
+        <p style={{ color: "#9ca3af" }}>
+          Completed: October 2026
+        </p>
 
-  <ul style={listStyle}>
-    <li>
-      Integrated Large Language Models using the Groq API to build
-      AI-powered applications.
-    </li>
-    <li>
-      Developed TalentLens, an AI resume screening system that extracts
-      resume content, identifies matching and missing skills, and
-      generates structured candidate assessments.
-    </li>
-    <li>
-      Built AI Support Operations Copilot with ticket analysis,
-      issue classification, recommended actions, and customer reply drafts.
-    </li>
-    <li>
-      Used Pydantic to validate structured AI responses and improve
-      consistency in application data.
-    </li>
-    <li>
-      Implemented semantic retrieval using ChromaDB to retrieve relevant
-      support information.
-    </li>
-    <li>
-      Built Python-based integrations, tested backend APIs, and deployed
-      AI applications for web access.
-    </li>
-  </ul>
+        <ul style={listStyle}>
+          <li>
+            Completed a 70-hour Generative AI course focused on
+            LangChain and Hugging Face.
+          </li>
+          <li>
+            Expanded knowledge of Generative AI concepts and tools.
+          </li>
+        </ul>
 
-  <p style={{ ...techStyle, lineHeight: "1.8" }}>
-    Python • Groq API • LLMs • Prompt Engineering • Pydantic •
-    ChromaDB • Django REST Framework
-  </p>
+        <p style={courseTechStyle}>
+          Python • Generative AI • LangChain • Hugging Face
+        </p>
 
-  <div style={buttonContainerStyle}>
-    <a
-      href="https://github.com/Priyanshugitnegi/ai-support-operations-copilot"
-      target="_blank"
-      rel="noreferrer"
-      style={btnPrimary}
-    >
-      Support Copilot
-    </a>
+        <a
+          href="https://ude.my/UC-043e7a8b-91ce-4050-bb7a-bf44c2863174"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={linkStyle}
+        >
+          View Certificate ↗
+        </a>
+      </div>
 
-    <a
-      href="https://github.com/Priyanshugitnegi/TalentLens"
-      target="_blank"
-      rel="noreferrer"
-      style={btnOutline}
-    >
-      TalentLens
-    </a>
-  </div>
-</div>
+      {/* BioLogist Freelance Work */}
+      <div style={cardStyle}>
+        <h3 style={headingStyle}>
+          Freelance Web Developer — BioLogist
+        </h3>
 
+        <p style={subtitleStyle}>
+          Website Development Project
+        </p>
 
-        {/* BIOLOGIST */}
-        <div style={cardStyle}>
-          <h3 style={headingStyle}>
-            Freelance Web Developer — BioLogist
-          </h3>
+        <ul style={listStyle}>
+          <li>
+            Developed a website using Django for backend functionality
+            and React for the frontend.
+          </li>
+          <li>
+            Implemented product and category management with database
+            integration.
+          </li>
+          <li>
+            Worked on REST APIs and frontend-backend integration.
+          </li>
+        </ul>
 
-          <p style={subtitleStyle}>Independent / Client Project</p>
+        <a
+          href="https://www.biologistinfo.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={linkStyle}
+        >
+          Visit Website ↗
+        </a>
+      </div>
 
-          <a
-            href="https://www.biologistinfo.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={linkStyle}
-          >
-            View Live Website ↗
-          </a>
+      {/* Virtual Assistant */}
+      <div style={cardStyle}>
+        <h3 style={headingStyle}>
+          AI Support Operations Copilot
+        </h3>
 
-          <ul style={listStyle}>
-            <li>
-              Built and deployed a full-stack e-commerce platform using
-              Django, Django REST Framework, React, and MySQL.
-            </li>
-            <li>
-              Developed REST APIs for product catalogues, categories,
-              product variants, and customer enquiries.
-            </li>
-            <li>
-              Designed relational database models and integrated frontend
-              components with backend API endpoints.
-            </li>
-            <li>
-              Implemented Excel-based bulk product imports to streamline
-              catalogue management.
-            </li>
-            <li>
-              Improved database query efficiency and response performance
-              through query optimization and caching.
-            </li>
-          </ul>
-        </div>
+        <p style={subtitleStyle}>
+          Python Backend & Generative AI Project
+        </p>
 
-        {/* VIRTUAL ASSISTANT */}
-        <div style={cardStyle}>
-          <h3 style={headingStyle}>
-            Freelance Virtual Assistant
-          </h3>
+        <ul style={listStyle}>
+          <li>
+            Built a support operations application using Python and
+            Django.
+          </li>
+          <li>
+            Worked on AI-assisted ticket analysis and support workflows.
+          </li>
+          <li>
+            Explored integrating Generative AI into backend applications.
+          </li>
+        </ul>
 
-          <p style={subtitleStyle}>Independent Freelance Work</p>
-
-          <ul style={listStyle}>
-            <li>
-              Assisted with data entry, web research, and spreadsheet
-              management.
-            </li>
-            <li>
-              Organized digital information and documents with attention
-              to accuracy and consistency.
-            </li>
-            <li>
-              Managed administrative and research tasks while meeting
-              assigned deadlines.
-            </li>
-          </ul>
-        </div>
+        <a
+          href="https://github.com/Priyanshugitnegi/ai-support-operations-copilot"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={linkStyle}
+        >
+          View Project on GitHub ↗
+        </a>
       </div>
     </section>
   );
