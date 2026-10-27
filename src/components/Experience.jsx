@@ -67,6 +67,71 @@ function Experience() {
   </ul>
 </div>
 
+{/* GENERATIVE AI PROJECT EXPERIENCE */}
+<div style={cardStyle}>
+  <h3 style={headingStyle}>
+    Generative AI Developer — Project Experience
+  </h3>
+
+  <p style={subtitleStyle}>
+    Hands-on Experience | Python & Generative AI
+  </p>
+
+  <ul style={listStyle}>
+    <li>
+      Integrated Large Language Models using the Groq API to build
+      AI-powered applications.
+    </li>
+    <li>
+      Developed TalentLens, an AI resume screening system that extracts
+      resume content, identifies matching and missing skills, and
+      generates structured candidate assessments.
+    </li>
+    <li>
+      Built AI Support Operations Copilot with ticket analysis,
+      issue classification, recommended actions, and customer reply drafts.
+    </li>
+    <li>
+      Used Pydantic to validate structured AI responses and improve
+      consistency in application data.
+    </li>
+    <li>
+      Implemented semantic retrieval using ChromaDB to retrieve relevant
+      support information.
+    </li>
+    <li>
+      Built Python-based integrations, tested backend APIs, and deployed
+      AI applications for web access.
+    </li>
+  </ul>
+
+  <p style={{ ...techStyle, lineHeight: "1.8" }}>
+    Python • Groq API • LLMs • Prompt Engineering • Pydantic •
+    ChromaDB • Django REST Framework
+  </p>
+
+  <div style={buttonContainerStyle}>
+    <a
+      href="https://github.com/Priyanshugitnegi/ai-support-operations-copilot"
+      target="_blank"
+      rel="noreferrer"
+      style={btnPrimary}
+    >
+      Support Copilot
+    </a>
+
+    <a
+      href="https://github.com/Priyanshugitnegi/TalentLens"
+      target="_blank"
+      rel="noreferrer"
+      style={btnOutline}
+    >
+      TalentLens
+    </a>
+  </div>
+</div>
+
+
         {/* BIOLOGIST */}
         <div style={cardStyle}>
           <h3 style={headingStyle}>
